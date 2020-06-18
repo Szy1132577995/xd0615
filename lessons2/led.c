@@ -1,3 +1,5 @@
+#include "arduino.h"
+#include<stdio.h>
 int i=0;
 void setup()
 {
@@ -9,7 +11,7 @@ void setup()
  }
 
 void loop()
-{
+{ 
   for(i=0;i<8;i++)
   {
   digitalWrite(i, HIGH);
